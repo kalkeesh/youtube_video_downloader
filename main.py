@@ -103,10 +103,10 @@ st.text("")
 st.text("") 
 st.text("") 
 if st.button("About Creator🧐", key="about_creator_button"):
-    with st.expander("About kalkeesh jami"):
+    with st.expander("kalkeesh jami"):
         st.image("mepic.jpg", use_column_width=True)  
         st.write("""
-        Hello! I'm KALKEESH JAMI, a passionate developer exploring the world of AI and programming.
+        Hello! I'm KALKEESH JAMI #AKA Kalki, a passionate developer exploring the world of AI and programming.
         
         - I love building applications that make life easier.
         - I'm good at Python and data analysis.
