@@ -100,7 +100,7 @@ else:
             mime="video/mp4"
         )
         st.success("click on continue:")
-        st_lottie(lottie_continue, height=200, key="continue_animation")
+        st_lottie(lottie_continue, height=300, key="continue_animation")
         try:
             os.remove(file_path)
             st.session_state.video_downloaded = False
