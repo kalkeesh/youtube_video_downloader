@@ -55,6 +55,7 @@ def download_video_with_progress(url, download_folder, video_id, video_quality, 
 
     st.write(f"Failed to download {url} after {max_retries} attempts")
     return None
+st.set_page_config(page_title="mp4 downloader", page_icon = "📸", layout = "wide", initial_sidebar_state = "auto")
 
 # st.title("Youtube Video Downloader 🤘")
 st.image("title.png", use_column_width=True)
